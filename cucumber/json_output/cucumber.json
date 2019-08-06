@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Create a new proposal in FMO for Customer type Patner.",
+        "description": "",
+        "id": "creating-proposal-in-fmo;create-a-new-proposal-in-fmo-for-customer-type-patner.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5633367600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open browser",
+            "match": {
+              "location": "patnersh.User_open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 347804400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter user name and password",
+            "match": {
+              "location": "patnersh.User_enter_user_name_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1457393900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter new proposal option",
+            "match": {
+              "location": "patnersh.user_enter_new_proposal_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8109084300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User accept DPA Agreement",
+            "match": {
+              "location": "patnersh.user_accept_DPA_Agreement()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91490632900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter all mandatory answers",
+            "match": {
+              "location": "patnersh.user_enter_all_mandatory_answers()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6477357700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User save the form",
+            "match": {
+              "location": "patnersh.user_save_the_form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2361537500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User add patner",
+            "match": {
+              "location": "patnersh.User_add_patner()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7134972000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter patner form",
+            "match": {
+              "location": "patnersh.User_enter_patner_form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63606892000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User create a quote",
+            "match": {
+              "location": "patnersh.User_create_a_quote()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50893804900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User submit the proposal",
+            "match": {
+              "location": "patnersh.User_submit_the_proposal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24146898100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User goto Update screen",
+            "match": {
+              "location": "patnersh.User_goto_Update_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 369087887800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User verify the document",
+            "match": {
+              "location": "patnersh.User_verify_the_document()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20357014300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User Activate the Proposal",
+            "match": {
+              "location": "patnersh.User_Activate_the_Proposal()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Creating Proposal in FMO",
+    "description": "",
+    "id": "creating-proposal-in-fmo",
+    "keyword": "Feature",
+    "uri": "patner.feature"
+  }
+]

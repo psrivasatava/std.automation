@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="651.104647">
+<testcase classname="Creating Proposal in FMO" name="Create a new proposal in FMO for Customer type Patner." time="651.104647">
+<system-out><![CDATA[Given User open browser.....................................................passed
+When User enter user name and password......................................passed
+Then User enter new proposal option.........................................passed
+Then User accept DPA Agreement..............................................passed
+Then User enter all mandatory answers.......................................passed
+Then User save the form.....................................................passed
+Then User add patner........................................................passed
+Then User enter patner form.................................................passed
+Then User create a quote....................................................passed
+Then User submit the proposal...............................................passed
+Then User goto Update screen................................................passed
+Then User verify the document...............................................passed
+Then User Activate the Proposal.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
